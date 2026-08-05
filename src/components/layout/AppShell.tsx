@@ -1,4 +1,5 @@
 import { useEffect, useState, type ChangeEvent } from 'react'
+import CreatorSetupSection from '../CreatorSetupSection'
 
 type ProductInfoState = {
   productName: string
@@ -708,10 +709,29 @@ function AppShell() {
         </div>
       </section>
 
+      <CreatorSetupSection
+        title="Creator setup"
+        description="Frame the creator context in a simple way so the review workflow feels grounded and ready for the next stage."
+        items={[
+          {
+            title: 'Voice & perspective',
+            body: 'Choose a clear review tone so the final content feels confident, natural, and aligned with the product story.',
+          },
+          {
+            title: 'Format focus',
+            body: 'Keep the structure concise and review-friendly with a strong opening, a practical middle, and a clear closing action.',
+          },
+          {
+            title: 'Creative intent',
+            body: 'Make the review feel useful to the audience by centering the product benefits, real-world value, and decision support.',
+          },
+        ]}
+      />
+
       <section className="workspace-card" aria-label="Prompt output">
         <div className="workspace-card__header">
           <div>
-            <p className="hero-kicker">04</p>
+            <p className="hero-kicker">05</p>
             <h2>Prompt output</h2>
           </div>
         </div>
@@ -734,7 +754,7 @@ function AppShell() {
       <section className="workspace-card" aria-label="Review output">
         <div className="workspace-card__header">
           <div>
-            <p className="hero-kicker">05</p>
+            <p className="hero-kicker">06</p>
             <h2>Review output</h2>
           </div>
         </div>
@@ -781,7 +801,7 @@ function AppShell() {
       <section className="workspace-card" aria-label="Review history">
         <div className="workspace-card__header">
           <div>
-            <p className="hero-kicker">06</p>
+            <p className="hero-kicker">07</p>
             <h2>Recent reviews</h2>
           </div>
         </div>
@@ -819,7 +839,7 @@ function AppShell() {
       <section className="workspace-card" aria-label="Prompt history">
         <div className="workspace-card__header">
           <div>
-            <p className="hero-kicker">07</p>
+            <p className="hero-kicker">08</p>
             <h2>Recent prompts</h2>
           </div>
         </div>

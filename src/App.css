@@ -229,6 +229,49 @@ textarea:focus-visible {
   text-align: center;
 }
 
+.creator-setup {
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  box-shadow: 0 18px 60px rgba(2, 6, 23, 0.25);
+  padding: 24px;
+}
+
+.creator-setup__header {
+  margin-bottom: 16px;
+}
+
+.creator-setup__header h2 {
+  margin: 0 0 6px;
+}
+
+.creator-setup__header p {
+  margin: 0;
+  color: #cbd5e1;
+}
+
+.creator-setup__content {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.creator-setup__card {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 16px;
+  background: rgba(2, 6, 23, 0.55);
+}
+
+.creator-setup__card h3 {
+  margin: 0 0 8px;
+}
+
+.creator-setup__card p {
+  margin: 0;
+  color: #cbd5e1;
+}
+
 .review-output {
   display: flex;
   flex-direction: column;
@@ -310,6 +353,10 @@ textarea:focus-visible {
 
 @media (max-width: 900px) {
   .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .creator-setup__content {
     grid-template-columns: 1fr;
   }
 
