@@ -154,6 +154,147 @@ Completed:
 
 ---
 
+## Version 0.1.9
+
+Status:
+
+Sprint 2 Completed and QA Passed
+
+Completed:
+
+- Replaced the placeholder Overview experience with a real Product Review workspace
+- Added a Product Information section for product name, brand, category, marketplace URL, price, and short description
+- Added Product Images support with upload, preview, and remove-image actions
+- Added a Product Understanding section for target audience, problems, benefits, USP, and CTA
+- Added Prompt Output with a read-only textarea and a generated prompt placeholder
+- Added Generate Prompt, Copy Prompt, and Download TXT actions powered by React state only
+- Kept the interface in a dark, responsive style with no backend integration
+- Verified the implementation through production build and lint checks
+
+---
+
+## Version 0.2.0
+
+Status:
+
+Sprint 3 Completed and QA Passed
+
+Completed:
+
+- Added a lightweight prompt history feature to the existing Product Review workspace
+- Generated prompts are now saved locally and surfaced in a recent prompts section
+- Added Load, Copy, and Download actions for saved prompts
+- Kept the experience minimal and aligned with the current dark, responsive UI
+- Verified the implementation through production build and lint checks
+
+---
+
+## Version 0.2.1
+
+Status:
+
+Sprint 4 Completed and QA Passed
+
+Completed:
+
+- Added quick-start presets to the Product Review workspace for common product categories
+- Users can apply a preset to rapidly populate product information and understanding fields
+- Kept the experience minimal, reusable, and aligned with the existing dark, responsive UI
+- Verified the implementation through production build and lint checks
+
+---
+
+## Version 0.2.2
+
+Status:
+
+Sprint 5 Completed and QA Passed
+
+Completed:
+
+- Added lightweight draft persistence for the Product Review workspace
+- The current product information, understanding details, and active prompt now survive a page refresh
+- Kept the experience minimal, client-side, and aligned with the existing dark, responsive UI
+- Verified the implementation through production build and lint checks
+
+---
+
+## Version 0.2.3
+
+Status:
+
+Sprint 6 Completed and QA Passed
+
+Completed:
+
+- Activated the existing Product Review workspace as the main MVP experience in the app
+- The application now loads directly into the product review workflow instead of the earlier scaffold
+- Reused the existing workspace components and preserved the current local-state and persistence behavior
+- Kept the experience minimal, responsive, and aligned with the existing dark UI system
+- Verified the implementation through production build and lint checks
+
+---
+
+## Version 0.2.4
+
+Status:
+
+Sprint 7 Completed and QA Passed
+
+Completed:
+
+- Added a lightweight review draft generation step to the Product Review workspace
+- Users can generate, copy, and clear a review draft directly from the current product and prompt context
+- Kept the review output minimal, reusable, and aligned with the existing dark UI system
+- Verified the implementation through production build and lint checks
+
+---
+
+## Version 0.2.5
+
+Status:
+
+Sprint 8 Completed and QA Passed
+
+Completed:
+
+- Added a lightweight review history experience to the Product Review workspace
+- Generated reviews are now saved locally and can be reloaded, copied, or downloaded later
+- Kept the interaction minimal, reusable, and aligned with the existing dark UI system
+- Verified the implementation through production build and lint checks
+
+---
+
+## Version 0.2.6
+
+Status:
+
+Sprint 9 Completed and QA Passed
+
+Completed:
+
+- Added image persistence to the Product Review workspace draft
+- Uploaded product images now restore after a refresh alongside the rest of the workspace state
+- Kept the experience minimal, client-side, and aligned with the existing dark UI system
+- Verified the implementation through production build and lint checks
+
+---
+
+## Version 0.2.7
+
+Status:
+
+Sprint 10 Completed and QA Passed
+
+Completed:
+
+- Applied a final MVP polish pass across spacing, responsive layout, empty states, and button consistency
+- Added a workspace reset action to make the experience feel more complete and easier to reuse
+- Refined the overall presentation so the app is ready for production use
+- Verified the implementation through production build and lint checks
+
+---
+
 ## Development Workflow
 
 Every task follows this lifecycle:
@@ -190,7 +331,7 @@ Next Task
 
 Task ID:
 
-MVP-004
+SPRINT-005
 
 Status:
 
